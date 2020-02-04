@@ -41,19 +41,19 @@ public class UserInterfaceButtons : MonoBehaviour
 	public void ScaleUpButtonRepeat ()
 	{
 		ZoomUp = true;
-		Debug.Log ("Up");
+		
 	}
 	public void ScaleDownButtonRepeat ()
 	{
 		ZoomDown = true;
-		Debug.Log ("Down");
+		
 	}
 	
 	
 	public void ScaleUpButtonOff ()
 	{
 		ZoomUp = false;
-		Debug.Log ("Off");
+		
 	}
 	public void ScaleDownButtonOff ()
 	{
