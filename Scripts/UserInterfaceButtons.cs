@@ -7,7 +7,7 @@ public class UserInterfaceButtons : MonoBehaviour
 	public float sSpeed = 0.03f;
 	public float rSpeed = 70.0f;
 	public float tSpeed = 5.0f;
-//	public GameObject Model;
+
 	bool ZoomUp = false;
 	bool ZoomDown = false;
 	
@@ -34,7 +34,7 @@ public class UserInterfaceButtons : MonoBehaviour
 
 	public void ScaleUpButton ()
 	{
-		// transform.localScale += new Vector3(scalingSpeed, scalingSpeed, scalingSpeed);
+		
 			GameObject.FindWithTag ("Model").transform.localScale += new Vector3 (sSpeed, sSpeed, sSpeed);
 		}
 
@@ -64,20 +64,10 @@ public class UserInterfaceButtons : MonoBehaviour
 	
 	public void ScaleDownButton ()
 	{
-		// transform.localScale += new Vector3(-scalingSpeed, -scalingSpeed, -scalingSpeed);
+		
 		GameObject.FindWithTag ("Model").transform.localScale += new Vector3 (-sSpeed, -sSpeed, -sSpeed);
 	}
 
 	
 
-	public void ChangeScene (string a)
-	{
-		
-		Application.LoadLevel (a);
-	}
-
-	public void AnyButton ()
-	{
-		Debug.Log ("Any");
-	}
 }
