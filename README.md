@@ -1,4 +1,4 @@
-# iXiHackathon_TechnoBrats
+# iXi2020Hackathon_TechnoBrats
 Project leARn - AR based app for education and research
 
 
