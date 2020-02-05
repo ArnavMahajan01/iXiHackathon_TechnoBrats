@@ -1,0 +1,134 @@
+.body{
+  text-align: center;
+  margin: 0;
+}
+.content1{
+  font-weight: lighter;
+  font-size: 40px;
+  color: white;
+  margin-bottom: 30px;
+}
+.content2{
+  font-size: 125px;
+}
+.top-container{
+  padding-top: 200px;
+  background: url("images/rednebula.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 700px;
+}
+.description1{
+  text-align: left;
+  width:50%;
+  margin:200px auto 150px auto;
+  padding-top: 50px;
+
+}
+.img1{
+  float: right;
+  border-radius: 100%;
+  position: relative;
+
+}
+.video{
+  float:left;
+  width:50%;
+  margin-right: 40px;
+  padding-bottom: 150px;
+}
+.img3{
+  float: right;
+  border-radius: 100%;
+  margin-left: 40px;
+  width:50%;
+}
+.profile{
+  border-radius: 100%
+}
+.utkarsh{
+  width: 25%;
+  text-align: left;
+  display: inline-block;
+}
+.details{
+  text-align: center;
+}
+.shreyas{
+  width:25%;
+  display: inline-block;
+}
+.arnav{
+  width:25%;
+  display: inline-block;
+}
+.span1{
+  font-style: italic;
+  color: #bb0a1e;
+
+}
+.span{
+  color: white;
+  font-weight: lighter;
+}
+.btn {
+  font-family: "Varela round";
+  padding: 10px 20px 10px 20px;
+  color: white;
+  text-decoration: none;
+  background-color: #800000;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#800000), to(#dc143c));
+  background-image: -o-linear-gradient(#800000, #dc143c);
+  background-image: linear-gradient(#800000, #dc143c);
+  border-radius: 8px;
+  margin-top: 100px;
+}
+
+.btn:hover {
+  background-color: #dc143c;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#dc143c), to(#bb0a1e));
+  background-image: -o-linear-gradient(#dc143c, #bb0a1e);
+  background-image: linear-gradient(#dc143c, #bb0a1e);
+  color:white;
+}
+.bottom-container{
+  margin: 100px auto;
+  background: url("images/rednebula.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+.middle-container{
+  color: white;
+  margin-top: 0;
+  background: url("images/back.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.last{
+  padding-bottom: 50px;
+}
+.teamMembers{
+  padding-top: 100px;
+}
+.margin{
+  margin-top: 25px;
+}
+.link1:link, .link1:visited{
+  font-size: 25px;
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.link1:hover, .link1:active{
+  background-color: red;
+}
